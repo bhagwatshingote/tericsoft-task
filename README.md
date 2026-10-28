@@ -13,4 +13,7 @@ docker build -t tericsoft:1.0 .
 docker run -d --name tericsoft-web -p 8081:8081 tericsoft:1.0
 
 ## Access
-http://<PUBLIC_IP>:8081
+
+**Live Application:** http://54.215.223.168:8081
+
+**Deployment:** AWS EC2 with Docker and AWS ECS Fargate using Amazon ECR.
